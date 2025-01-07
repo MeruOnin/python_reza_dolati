@@ -59,8 +59,6 @@ class SellerAndBuyer(Seller, Buyer):
         return f"{self.__class__.__name__}(user_name={self.user_name!r}, email={self.email!r}, password={self.password!r}, phone={self.phone!r},shaba={self.shaba!r}, score={self.score!r})"
     
 
-
-
 user6 = SellerAndBuyer(user_name="Hossein", password="1234", email="H@gmail.com", phone="09913945649", shaba="9889", score=20)
 
 print(User.all_users)
