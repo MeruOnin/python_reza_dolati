@@ -17,7 +17,7 @@ class Descriptor:
 
         else:
             raise ValueError(f"invalid data {value!r}")
-
+            
 
 class BankClass:
     balance = Descriptor()
